@@ -1,0 +1,44 @@
+body {
+    background-color: #8661f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container-wrapper {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.left-section {
+    background-color: #8661f5;
+    color: white;
+    font-size: 72px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 20px;
+}
+.right-section {
+   flex: 2;
+   padding: 40px;
+   border-radius: 10px;
+}
+.btn-submit {
+    background-color: #8661f5;
+    border: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+.btn-submit:hover {
+    background-color: #714fd8;
+}
